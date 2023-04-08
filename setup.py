@@ -6,7 +6,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setup(
     name='verbose_chainsaw',
-    version='0.1.0',
+    version='0.1.1',
     packages=['verbose_chainsaw'],
     url='https://github.com/egoughnour/verbose-chainsaw',
     license='MIT',
@@ -18,7 +18,7 @@ setup(
     install_requires=['numpy'],
     classifiers=[
         'Programming Language :: Python :: 3.8',
-        'Programming Language :: Python :: 3.9'
+        'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11'
     ],
