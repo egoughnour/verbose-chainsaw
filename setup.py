@@ -1,6 +1,9 @@
 from setuptools import setup
 from setuptools.command.sdist import sdist 
 
+with open('README.md', 'r', encoding='utf-8') as fh:
+    long_description = fh.read()
+
 setup(
     name='verbose_chainsaw',
     version='0.1.0',
@@ -9,7 +12,9 @@ setup(
     license='MIT',
     author='E Goughnour',
     author_email='e.goughnour@gmail.com',
-    description='A stub for testing barebones package generation for development',
+    description='Pseudo-random matrix-valued data generator',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     install_requires=['numpy'],
     classifiers=[
         'Programming Language :: Python :: 3.10',
